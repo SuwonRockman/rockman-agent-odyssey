@@ -1,0 +1,3 @@
+C:\Users\정세윤\OneDrive\Desktop\Study Agent\attention-mechanism\notebook\03_advanced_practice.ipynb
+C:\Users\정세윤\OneDrive\Desktop\Study Agent\embeddings-basics\notebook\03_advanced_practice.ipynb
+C:\Users\정세윤\OneDrive\Desktop\Study Agent\tokenization\notebook\03_advanced_practice.ipynb
