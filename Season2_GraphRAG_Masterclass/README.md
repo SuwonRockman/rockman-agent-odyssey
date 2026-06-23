@@ -1,4 +1,4 @@
-# 🚀 GraphRAG Masterclass: Enterprise Cognitive Search
+# 🚀 Season 2: Enterprise GraphRAG Masterclass
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: Python](https://img.shields.io/badge/Language-Python-blue.svg)](#)
@@ -13,31 +13,35 @@
 
 ## 🗺️ 커리큘럼 로드맵 (Curriculum Roadmap)
 
-각 모듈은 독립적인 깃허브 레포지토리로 연결되어 있습니다. 링크를 클릭하여 각 단계의 `01_theory.md`와 `02_algorithm_from_scratch.ipynb`를 확인해 보세요!
+각 폴더의 링크를 클릭하여 해당 단계의 상세 파이프라인 구현 코드를 확인해 보세요!
 
 ### 🧱 Phase 1: Data Preparation (비정형 데이터 정제)
 GraphRAG의 성공을 좌우하는 기초 공사. 원본 텍스트의 불순물을 제거하고 구조화합니다.
-*   **Step 01. [Advanced Data Parsing](https://github.com/SuwonRockman/graphrag-data-parsing)**
-    *   GIGO(Garbage In, Garbage Out) 방지 이론, 정규표현식(Regex) 기반의 Structural Chunking, 그리고 추론 근거(Citation)를 위한 Metadata Tagging 파이프라인 구현
+*   **Step 01. [Advanced Data Parsing](./graphrag-data-parsing/)**
+    *   GIGO(Garbage In, Garbage Out) 방지 이론, 정규표현식(Regex) 기반의 Structural Chunking, 그리고 추론 근거(Citation)를 위한 Metadata Tagging 파이프라인 구현.
 
 ### 🕸️ Phase 2: Knowledge Extraction (지식망 추출)
-*   **Step 02. [Knowledge Graph Extraction](https://github.com/SuwonRockman/knowledge-graph-extraction)** (예정)
-    *   LLM 프롬프팅을 통한 Entity(주체)와 Relation(관계) 트리플렛 자동 추출
+*   **Step 02. [Knowledge Graph Extraction](./knowledge-graph-extraction/)**
+    *   LLM 프롬프팅을 통한 Entity(개체)와 Relation(관계) 트리플렛(Triplet) 자동 추출 및 구조화.
 
 ### 🧠 Phase 3: Hybrid Retrieval (하이브리드 엔진)
-*   **Step 03. [Neo4j Hybrid Search](https://github.com/SuwonRockman/neo4j-hybrid-search)** (예정)
-    *   Neo4j 그래프 DB 적재(Cypher 쿼리) 및 Vector 유사도 검색과의 하이브리드 통합 알고리즘
+*   **Step 03. [Neo4j Hybrid Search](./neo4j-hybrid-search/)**
+    *   Neo4j 그래프 DB 적재(Cypher 쿼리) 및 Vector 유사도 검색을 결합한 하이브리드(Hybrid) 통합 알고리즘 검색 엔진 구축.
 
 ### 🏢 Phase 4: Enterprise Web UI (엔터프라이즈 검색 포털)
-*   **Step 04. [GraphRAG Web Portal](https://github.com/SuwonRockman/graphrag-web-portal)** (예정)
-    *   Streamlit과 NetworkX를 활용한 사내 구글(Cognitive Search) 시각화 인터페이스
+*   **Step 04. [GraphRAG Web UI](./graphrag-web-ui/)**
+    *   Streamlit 웹 어플리케이션 개발 및 NetworkX/PyVis를 활용한 사내 지식 검색(Cognitive Search) 시각화 인터페이스 통합.
+
+### 🤖 Phase 5: Auto-Ingestion Pipeline (완전 자동화 데이터 수집기)
+*   **Step 05. [Auto Ingestion Pipeline](./auto-ingestion-pipeline/)**
+    *   사용자의 로컬 마크다운 폴더(`DataCollectionVault/raw`)를 모니터링하여, 매일 쏟아지는 원본 데이터를 자동으로 파싱하고 LLM을 통해 지식망으로 변환한 뒤 Neo4j DB에 실시간 적재하는 백그라운드 자동화 봇.
 
 ---
 
 ## 🛠️ 기술 스택 (Tech Stack)
 *   **Language:** Python 3.10+
 *   **Graph DB:** Neo4j, Cypher
-*   **Vector DB & LLM:** FAISS, OpenAI API / LangChain
+*   **Vector DB & LLM:** FAISS, OpenAI API, LangChain
 *   **Environment:** Jupyter Notebook, Streamlit
 
 <br>
