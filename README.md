@@ -24,7 +24,7 @@
 
 각 폴더로 이동하여 상세한 구현 코드와 주피터 노트북을 확인하세요.
 
-### 📈 [Season 1: Predictive Modeling & Optimization](./Season1_Predictive_Modeling_Optimization/)
+### 📈 [Season 1: Predictive Modeling & Optimization](./Industrial_MLOps_Cognitive_DS_Masterclass/Season1_Predictive_Modeling_Optimization/)
 산업용 센서 데이터를 다루는 데이터 분석부터 머신러닝 예측 모델 및 설명 가능한 AI(XAI) 분석까지 다루는 5단계 실습 과정입니다.
 
 *   **Phase 1: Industrial Time-Series Preprocessing** (시계열 센서 데이터 전처리 및 정제)
@@ -33,11 +33,11 @@
 *   **Phase 4: RUL (Remaining Useful Life) Regression** (잔여 수명 예측 회귀 모델 구현)
 *   **Phase 5: Explainable AI & Root Cause Analysis** (SHAP 기반 기여도 시각화 및 근본 원인 분석)
 
-👉 **[Season 1 상세 커리큘럼 보기](./Season1_Predictive_Modeling_Optimization/README.md)**
+👉 **[Season 1 상세 커리큘럼 보기](./Industrial_MLOps_Cognitive_DS_Masterclass/Season1_Predictive_Modeling_Optimization/README.md)**
 
 ---
 
-### 🕸️ [Season 2: Cognitive Search & GraphRAG](./Season2_Cognitive_Search_GraphRAG/)
+### 🕸️ [Season 2: Cognitive Search & GraphRAG](./Industrial_MLOps_Cognitive_DS_Masterclass/Season2_Cognitive_Search_GraphRAG/)
 비정형 산업 문서를 파싱하고 Neo4j를 이용하여 논리적 지식망(Knowledge Graph) 하이브리드 검색 엔진을 구축하는 인지형 검색 포털 설계 과정입니다.
 
 *   **Phase 1: Structural Ingest & Parsing** (산업 매뉴얼 텍스트 데이터 파싱)
@@ -46,11 +46,11 @@
 *   **Phase 4: Cognitive Hybrid Retrieval** (의미 유사도 + 지식 위상 하이브리드 검색 엔진)
 *   **Phase 5: Web Command Portal** (Streamlit 기반 지식 검색 UI 구축)
 
-👉 **[Season 2 상세 커리큘럼 보기](./Season2_Cognitive_Search_GraphRAG/README.md)**
+👉 **[Season 2 상세 커리큘럼 보기](./Industrial_MLOps_Cognitive_DS_Masterclass/Season2_Cognitive_Search_GraphRAG/README.md)**
 
 ---
 
-### ⚙️ [Season 3: Agent Swarm & MLOps](./Season3_Agent_Swarm_MLOps/)
+### ⚙️ [Season 3: Agent Swarm & MLOps](./Industrial_MLOps_Cognitive_DS_Masterclass/Season3_Agent_Swarm_MLOps/)
 LangGraph 에이전트 군집 환경과 배포 자동화, 그리고 MLflow 및 Evidently AI를 활용한 실시간 MLOps 아키텍처 구축 과정입니다.
 
 *   **Phase 1: Agent Collaboration Architecture** (LangGraph 기반 예외 처리 에이전트 군집 설계)
@@ -59,7 +59,7 @@ LangGraph 에이전트 군집 환경과 배포 자동화, 그리고 MLflow 및 E
 *   **Phase 4: Data Drift & Monitoring** (Evidently AI 연동 실시간 데이터 변동 탐지)
 *   **Phase 5: Automated CI/CD & Retraining Pipeline** (자동 재학습 파이프라인 배포)
 
-👉 **[Season 3 상세 커리큘럼 보기](./Season3_Agent_Swarm_MLOps/README.md)**
+👉 **[Season 3 상세 커리큘럼 보기](./Industrial_MLOps_Cognitive_DS_Masterclass/Season3_Agent_Swarm_MLOps/README.md)**
 
 ---
 
