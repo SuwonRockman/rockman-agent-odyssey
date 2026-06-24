@@ -37,8 +37,8 @@
 
 ---
 
-### 🕸️ [Season 2: Cognitive Search & GraphRAG](./Industrial_MLOps_Cognitive_DS_Masterclass/Season2_Cognitive_Search_GraphRAG/)
-비정형 산업 문서를 파싱하고 Neo4j를 이용하여 논리적 지식망(Knowledge Graph) 하이브리드 검색 엔진을 구축하는 인지형 검색 포털 설계 과정입니다.
+### 🕸️ Season 2: Cognitive Search & GraphRAG (준비 중)
+비정형 산업 문서를 파싱하고 Neo4j를 이용하여 논리적 지식망(Knowledge Graph) 하이브리드 검색 엔진을 구축하는 인지형 검색 포털 설계 과정입니다. (시즌 1 완료 후 개설 예정)
 
 *   **Phase 1: Structural Ingest & Parsing** (산업 매뉴얼 텍스트 데이터 파싱)
 *   **Phase 2: Industrial Knowledge Triplet Extraction** (LLM 프롬프팅 기반 Entity & Relation 추출)
@@ -46,20 +46,16 @@
 *   **Phase 4: Cognitive Hybrid Retrieval** (의미 유사도 + 지식 위상 하이브리드 검색 엔진)
 *   **Phase 5: Web Command Portal** (Streamlit 기반 지식 검색 UI 구축)
 
-👉 **[Season 2 상세 커리큘럼 보기](./Industrial_MLOps_Cognitive_DS_Masterclass/Season2_Cognitive_Search_GraphRAG/README.md)**
-
 ---
 
-### ⚙️ [Season 3: Agent Swarm & MLOps](./Industrial_MLOps_Cognitive_DS_Masterclass/Season3_Agent_Swarm_MLOps/)
-LangGraph 에이전트 군집 환경과 배포 자동화, 그리고 MLflow 및 Evidently AI를 활용한 실시간 MLOps 아키텍처 구축 과정입니다.
+### ⚙️ Season 3: Agent Swarm & MLOps (준비 중)
+LangGraph 에이전트 군집 환경과 배포 자동화, 그리고 MLflow 및 Evidently AI를 활용한 실시간 MLOps 아키텍처 구축 과정입니다. (시즌 2 완료 후 개설 예정)
 
 *   **Phase 1: Agent Collaboration Architecture** (LangGraph 기반 예외 처리 에이전트 군집 설계)
 *   **Phase 2: Production API Service** (FastAPI & Docker 기반 에이전트 마이크로서비스 빌드)
 *   **Phase 3: MLflow Tracking & Register** (모델 매트릭 트래킹 및 중앙 관리)
 *   **Phase 4: Data Drift & Monitoring** (Evidently AI 연동 실시간 데이터 변동 탐지)
 *   **Phase 5: Automated CI/CD & Retraining Pipeline** (자동 재학습 파이프라인 배포)
-
-👉 **[Season 3 상세 커리큘럼 보기](./Industrial_MLOps_Cognitive_DS_Masterclass/Season3_Agent_Swarm_MLOps/README.md)**
 
 ---
 
