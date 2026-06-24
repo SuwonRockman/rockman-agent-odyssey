@@ -10,25 +10,25 @@
 
 ## 🗺️ 5단계 커리큘럼 로드맵 (Curriculum Roadmap)
 
-각 파일 링크를 클릭하여 해당하는 주피터 노트북 실습 파일로 바로 이동할 수 있습니다.
+각 폴더의 링크를 클릭하여 해당하는 Phase의 상세 이론과 주피터 노트북을 확인해 보세요!
 
-### 🧱 [Phase 1: Industrial Time-Series Preprocessing](./01_timeseries_preprocessing.ipynb)
+### 🧱 [Phase 1: Industrial Time-Series Preprocessing](./01_timeseries_preprocessing/README.md)
 센서 노이즈 필터링, 결측치 및 이상치 처리 기법을 배웁니다.
 *   **실습 내용**: Rolling window 기법을 활용한 시간 스케일 변환, 칼만 필터(Kalman Filter) 및 이동평균을 통한 센서 노이즈 필터링 기법 구현.
 
-### 🕸️ [Phase 2: Imbalanced Data & Feature Engineering](./02_imbalance_and_features.ipynb)
+### 🕸️ [Phase 2: Imbalanced Data & Feature Engineering](./02_imbalance_and_features/README.md)
 장애(Failure) 데이터가 매우 희소한 제조업 환경의 클래스 불균형 문제를 해결합니다.
 *   **실습 내용**: SMOTE, ADASYN 등을 활용한 오버샘플링 기법 적용, 시간 도메인(Mean, Std, Skewness, Kurtosis) 및 주파수 도메인(FFT) 피처 추출.
 
-### 🧠 [Phase 3: Equipment Failure Classification](./03_failure_classification.ipynb)
+### 🧠 [Phase 3: Equipment Failure Classification](./03_failure_classification/README.md)
 장애 유형(열적 장애, 과부하, 툴 마모 등)을 분류하는 멀티 클래스 예측 시스템을 구현합니다.
 *   **실습 내용**: XGBoost, LightGBM, Random Forest 알고리즘 훈련 및 하이퍼파라미터 튜닝(GridSearch / Optuna).
 
-### 🏢 [Phase 4: RUL (Remaining Useful Life) Regression](./04_rul_regression.ipynb)
+### 🏢 [Phase 4: RUL (Remaining Useful Life) Regression](./04_rul_regression/README.md)
 설비가 고장나기 전까지 남은 가동 가능 시간(RUL)을 정교하게 예측합니다.
 *   **실습 내용**: 시계열 회귀 모델링, RMSE 및 MAE 성능 평가 지표 최적화, 예측 추세선 가시화.
 
-### ⚙️ [Phase 5: Explainable AI & Root Cause Analysis](./05_explainable_ai_rca.ipynb)
+### ⚙️ [Phase 5: Explainable AI & Root Cause Analysis](./05_explainable_ai_rca/README.md)
 머신러닝 예측 결과에 대해 "왜 고장이 나는지" 설명하고 근본 원인을 추적합니다.
 *   **실습 내용**: SHAP(Shapley Additive exPlanations) 값 추출, Summary plot, Dependence plot, Force plot 시각화 및 설비 고장 핵심 인자 식별.
 
