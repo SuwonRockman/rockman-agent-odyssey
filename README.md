@@ -24,7 +24,7 @@
 
 각 폴더로 이동하여 상세한 구현 코드와 주피터 노트북을 확인하세요.
 
-### 📈 [Season 1: Predictive Modeling & Optimization](./Industrial_MLOps_Cognitive_DS_Masterclass/Season1_Predictive_Modeling_Optimization/)
+### 📈 [Season 1: Predictive Modeling & Optimization](./Season1_Predictive_Modeling_Optimization/)
 산업용 센서 데이터를 다루는 데이터 분석부터 머신러닝 예측 모델 및 설명 가능한 AI(XAI) 분석까지 다루는 5단계 실습 과정입니다.
 
 *   **Phase 1: Industrial Time-Series Preprocessing** (시계열 센서 데이터 전처리 및 정제)
@@ -33,7 +33,7 @@
 *   **Phase 4: RUL (Remaining Useful Life) Regression** (잔여 수명 예측 회귀 모델 구현)
 *   **Phase 5: Explainable AI & Root Cause Analysis** (SHAP 기반 기여도 시각화 및 근본 원인 분석)
 
-👉 **[Season 1 상세 커리큘럼 보기](./Industrial_MLOps_Cognitive_DS_Masterclass/Season1_Predictive_Modeling_Optimization/README.md)**
+👉 **[Season 1 상세 커리큘럼 보기](./Season1_Predictive_Modeling_Optimization/README.md)**
 
 ---
 
