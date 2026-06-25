@@ -1,4 +1,4 @@
-# 🚀 Industrial MLOps & Cognitive DS Masterclass
+# 🧠 LLM Masterclass Portfolio (From Foundation to Multi-Agent Systems)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: Python](https://img.shields.io/badge/Language-Python-blue.svg)](#)
@@ -7,82 +7,69 @@
 > **"What I cannot create, I do not understand."** - Richard Feynman
 > (내가 직접 만들 수 없는 것은, 내가 온전히 이해한 것이 아니다.)
 
-이 마스터클래스는 산업용 데이터 과학(Industrial Data Science), 인지 검색(Cognitive Search), 그리고 프로덕션 MLOps(Machine Learning Operations)를 다루는 전문가 과정 포트폴리오입니다. 실제 제조 및 산업 도메인의 대규모 센서 데이터, 텍스트 매뉴얼, 분산 데이터베이스 환경을 기반으로 모델을 학습하고 지속 가능하게 운영하는 엔지니어링 체계를 구축합니다.
+이 저장소는 언어 모델(LLM)의 기초 기초 수학 이론부터 시작하여 밑바닥 트랜스포머 구현, 파라미터 효율적인 미세조정(LoRA), 기업형 인지 검색망(GraphRAG), 그리고 자율 에이전트 협업 군집(Multi-Agent Swarm)까지 아우르는 **LLM 풀스택 전문가 포트폴리오** 저장소입니다.
 
 ---
 
 ## 🎯 주요 아키텍처 및 하이라이트
 
-1. **산업용 시계열 모델링 & 최적화**: 공장 설비 센서 데이터를 전처리하고 XGBoost 기반의 예지 보전(Predictive Maintenance) 장애 분류 및 잔여 수명(RUL) 회귀 분석 구현.
-2. **설명 가능한 AI (XAI)**: SHAP, LIME 등을 활용하여 복잡한 머신러닝 예측 모델의 내부 의사결정을 시각화하고 설비 고장의 근본 원인(Root Cause Analysis) 분석.
-3. **인지형 지식 검색 (Cognitive GraphRAG)**: 비정형 설비 매뉴얼에서 Entity/Relation을 정밀 파싱하고 **Neo4j 그래프 데이터베이스**와 결합한 하이브리드 검색망 설계.
-4. **실시간 MLOps 운영 및 모니터링**: **MLflow**를 통해 에이전트와 예측 모델의 성능 지표를 추적하고, **Evidently AI**를 연동하여 실시간 데이터/모델 드리프트(Drift) 탐지 및 자동 재학습 파이프라인 연동.
+1. **밑바닥부터 구현하는 딥러닝 뼈대 (Scratch implementation)**: Word2Vec, 토크나이저 BPE, LSTM, Attention, Transformer 디코더/인코더 블록의 순수 PyTorch 구현.
+2. **거대 모델 튜닝 및 정렬 (PEFT & Alignment)**: VRAM V100 환경에서의 LoRA 파인튜닝 수식 검증 및 RLHF 보상 모델(Bradley-Terry), DPO 손실 함수 수동 코딩.
+3. **인지형 지식 검색 (Enterprise GraphRAG)**: 비정형 데이터 정제부터 Neo4j Cypher 연동 하이브리드 검색엔진 및 시각화 검색포털 빌드.
+4. **실시간 스마트팩토리 자율 관제 (Multi-Agent Swarm)**: LangGraph 기반 예외 처리 분기 에이전트 군집 설계 및 FastAPI/Docker 패키징, 실시간 대시보드 구축.
 
 ---
 
 ## 🗺️ 커리큘럼 로드맵 (Curriculum Roadmap)
 
-각 폴더로 이동하여 상세한 구현 코드와 주피터 노트북을 확인하세요.
+### 🧱 [Season 1: LLM Foundation & Agents](./Season1_Foundation/)
+모델이 어떻게 인간의 언어를 숫자로 이해하고 압축하며, 자율적인 행동 주체로 거듭나는지 수학적 이론과 파이토치 텐서 코드로 직접 증명하며 올라가는 13단계의 풀스택 딥러닝 퀘스트입니다.
 
-### 📈 [Season 1: Predictive Modeling & Optimization](./Season1_Predictive_Modeling_Optimization/)
-산업용 센서 데이터를 다루는 데이터 분석부터 머신러닝 예측 모델 및 설명 가능한 AI(XAI) 분석까지 다루는 5단계 실습 과정입니다.
+*   **Phase 1. Foundation**: [Embeddings Basics](./Season1_Foundation/01_embeddings_basics/), [Tokenization](./Season1_Foundation/02_tokenization/)
+*   **Phase 2. Architecture**: [RNN & Seq2Seq](./Season1_Foundation/03_rnn_seq2seq/), [Attention Mechanism](./Season1_Foundation/04_attention_mechanism/), [Transformer Architecture](./Season1_Foundation/05_transformer_architecture/)
+*   **Phase 3. Scaling & Optimization**: [Pretrained Language Models](./Season1_Foundation/06_pretrained_language_models/), [LLM Optimization (LoRA)](./Season1_Foundation/07_llm_optimization_lora/)
+*   **Phase 4. Production & Agents**: [AI Alignment (RLHF & DPO)](./Season1_Foundation/08_llm_alignment_rlhf/), [Advanced RAG System](./Season1_Foundation/09_advanced_rag_hnsw/), [LLM Agentic Workflow](./Season1_Foundation/10_llm_agentic_workflow/)
+*   **Phase 5. Manufacturing AX**: [AX Factory Agent](./Season1_Foundation/11_ax_factory_agent/), [AX Data Analyst Agent](./Season1_Foundation/12_ax_data_analyst_agent/)
+*   **Phase 6. Enterprise LLMOps**: [Enterprise LLMOps CI/CD](./Season1_Foundation/13_llmops_agent_deployment/)
 
-*   **Phase 1: Industrial Time-Series Preprocessing** (시계열 센서 데이터 전처리 및 정제)
-*   **Phase 2: Imbalanced Data & Feature Engineering** (클래스 불균형 해결 및 도메인 피처 생성)
-*   **Phase 3: Equipment Failure Classification** (설비 장애 분류 모델링 및 XGBoost)
-*   **Phase 4: RUL (Remaining Useful Life) Regression** (잔여 수명 예측 회귀 모델 구현)
-*   **Phase 5: Explainable AI & Root Cause Analysis** (SHAP 기반 기여도 시각화 및 근본 원인 분석)
-
-👉 **[Season 1 상세 커리큘럼 보기](./Season1_Predictive_Modeling_Optimization/README.md)**
-
----
-
-### 🕸️ Season 2: Cognitive Search & GraphRAG (준비 중)
-비정형 산업 문서를 파싱하고 Neo4j를 이용하여 논리적 지식망(Knowledge Graph) 하이브리드 검색 엔진을 구축하는 인지형 검색 포털 설계 과정입니다. (시즌 1 완료 후 개설 예정)
-
-*   **Phase 1: Structural Ingest & Parsing** (산업 매뉴얼 텍스트 데이터 파싱)
-*   **Phase 2: Industrial Knowledge Triplet Extraction** (LLM 프롬프팅 기반 Entity & Relation 추출)
-*   **Phase 3: Neo4j Graph DB Integration** (지식 그래프 DB 적재 및 Cypher 검색 설계)
-*   **Phase 4: Cognitive Hybrid Retrieval** (의미 유사도 + 지식 위상 하이브리드 검색 엔진)
-*   **Phase 5: Web Command Portal** (Streamlit 기반 지식 검색 UI 구축)
+👉 **[Season 1 상세 커리큘럼 보기](./Season1_Foundation/README.md)**
 
 ---
 
-### ⚙️ Season 3: Agent Swarm & MLOps (준비 중)
-LangGraph 에이전트 군집 환경과 배포 자동화, 그리고 MLflow 및 Evidently AI를 활용한 실시간 MLOps 아키텍처 구축 과정입니다. (시즌 2 완료 후 개설 예정)
+### 🕸️ [Season 2: Enterprise GraphRAG Masterclass](./Season2_GraphRAG/)
+비정형 기업 데이터를 단순한 벡터 검색으로 찾는 한계를 넘어, 데이터 간의 '논리적 관계(Relationship)'를 추출하여 거대한 사내 지식망을 구축하고 하이브리드 검색을 수행하는 5단계 풀스택 퀘스트입니다.
 
-*   **Phase 1: Agent Collaboration Architecture** (LangGraph 기반 예외 처리 에이전트 군집 설계)
-*   **Phase 2: Production API Service** (FastAPI & Docker 기반 에이전트 마이크로서비스 빌드)
-*   **Phase 3: MLflow Tracking & Register** (모델 매트릭 트래킹 및 중앙 관리)
-*   **Phase 4: Data Drift & Monitoring** (Evidently AI 연동 실시간 데이터 변동 탐지)
-*   **Phase 5: Automated CI/CD & Retraining Pipeline** (자동 재학습 파이프라인 배포)
+*   **Step 01. Advanced Data Parsing**: [Structural Ingest & Parsing](./Season2_GraphRAG/01_graphrag_data_parsing/)
+*   **Step 02. Knowledge Graph Extraction**: [Entity & Relation Extraction](./Season2_GraphRAG/02_knowledge_graph_extraction/)
+*   **Step 03. Neo4j Hybrid Search**: [Graph DB Integration & Hybrid Search](./Season2_GraphRAG/03_neo4j_hybrid_search/)
+*   **Step 04. GraphRAG Web UI**: [Streamlit Visual Search Portal](./Season2_GraphRAG/04_graphrag_web_ui/)
+*   **Step 05. Auto-Ingestion Pipeline**: [Auto Monitoring Ingestor](./Season2_GraphRAG/05_auto_ingestion_pipeline/)
+
+👉 **[Season 2 상세 커리큘럼 보기](./Season2_GraphRAG/README.md)**
 
 ---
 
-## 🗄️ Completed Projects (Archived)
-기존에 완료된 AI Agent 및 RAG 기초 프로젝트들은 아래 링크를 통해 안전하게 유지 및 확인하실 수 있습니다.
+### 🤖 [Season 3: Autonomous AX Command Center](./Season3_MultiAgent_Swarm/)
+LangGraph 멀티 에이전트 군집 기반 스마트팩토리 실시간 관제 및 예외 처리 자율 제어 시스템입니다. FastAPI 마이크로서비스 및 Streamlit 시각화 대시보드를 구축합니다.
 
-*   🧠 **[Season 1: LLM Foundation & Agents (Archived)](./Season1_LLM_Masterclass/)** - 밑바닥 트랜스포머 구현, LoRA 파인튜닝, RLHF/DPO 정렬, ReAct 에이전트.
-*   🕸️ **[Season 2: Enterprise GraphRAG Masterclass (Archived)](./Season2_GraphRAG_Masterclass/)** - Neo4j 지식 그래프 추출, 하이브리드 검색 엔진 및 자동 수집 파이프라인.
-*   🤖 **[Season 3: Autonomous AX Command Center (Archived)](./Season3_MultiAgent_Swarm/)** - LangGraph 멀티 에이전트 군집 기반 스마트팩토리 실시간 관제 시스템.
+*   **Core Systems**: FastAPI Service, Streamlit UI, SQLite/Neo4j Database
+*   **Tech Stacks**: LangGraph, OpenAI, Pytest, Docker
+
+👉 **[Season 3 상세 커리큘럼 보기](./Season3_MultiAgent_Swarm/README.md)**
 
 ---
 
 ## 🛠️ 기술 스택 (Tech Stack)
 
 ### Core AI & Data Science
-* **ML & DL Frameworks:** PyTorch, HuggingFace, XGBoost, Scikit-learn, Scipy, Pandas
-* **Agentic Frameworks:** LangGraph, LangChain, OpenAI API
-* **Vector & Graph DB:** FAISS, Sentence-Transformers, Neo4j, Cypher, SQLite
+* **DL & Agent Frameworks:** PyTorch, HuggingFace, LangGraph, LangChain
+* **Vector & Graph DB:** FAISS, Neo4j, SQLite
 
 ### Infrastructure, Ops & Monitoring
-* **MLOps / LLMOps:** MLflow, Evidently AI, FastAPI, Docker
-* **Frontend & Dashboards:** Streamlit, NetworkX, PyVis
-* **CI/CD & Testing:** GitHub Actions, Pytest
+* **LLMOps:** FastAPI, Docker, GitHub Actions, Pytest
+* **Frontend & Visuals:** Streamlit, NetworkX, PyVis
 
 ---
-
-<br>
 <div align="center">
   <i>Created with ❤️ by Jung Seyoon (SuwonRockman)</i>
 </div>

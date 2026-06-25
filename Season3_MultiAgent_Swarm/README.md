@@ -29,7 +29,7 @@
 ## 🗂️ Directory Structure
 
 ```text
-Season3_MultiAgent_Swarm/
+1_LLM_Masterclass/Season3_MultiAgent_Swarm/
 ├── data/
 │   ├── ai4i2020.csv          # 센서 데이터 (수학/정량)
 │   ├── cnc_manual.txt        # 설비 매뉴얼 (자연어/비정형)
