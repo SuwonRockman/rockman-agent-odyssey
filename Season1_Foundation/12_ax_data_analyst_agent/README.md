@@ -11,5 +11,5 @@
 
 ---
 <div align="right">
-  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/12_ax_data_analyst_agent">SuwonRockman/12_ax_data_analyst_agent</a>
+  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/rockman-agent-odyssey/tree/master/Season1_Foundation/12_ax_data_analyst_agent">SuwonRockman/12_ax_data_analyst_agent</a>
 </div>

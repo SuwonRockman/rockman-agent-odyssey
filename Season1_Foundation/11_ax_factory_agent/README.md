@@ -38,5 +38,5 @@
 
 ---
 <div align="right">
-  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/11_ax_factory_agent">SuwonRockman/11_ax_factory_agent</a>
+  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/rockman-agent-odyssey/tree/master/Season1_Foundation/11_ax_factory_agent">SuwonRockman/11_ax_factory_agent</a>
 </div>

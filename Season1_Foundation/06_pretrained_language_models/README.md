@@ -72,5 +72,5 @@ GPT는 미래를 보지 못합니다. 철저하게 **왼쪽에서 오른쪽으�
 
 ---
 <div align="right">
-  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/06_pretrained_language_models">SuwonRockman/06_pretrained_language_models</a>
+  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/rockman-agent-odyssey/tree/master/Season1_Foundation/06_pretrained_language_models">SuwonRockman/06_pretrained_language_models</a>
 </div>

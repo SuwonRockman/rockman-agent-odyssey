@@ -72,5 +72,5 @@
 
 ---
 <div align="right">
-  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/05_transformer_architecture">SuwonRockman/05_transformer_architecture</a>
+  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/rockman-agent-odyssey/tree/master/Season1_Foundation/05_transformer_architecture">SuwonRockman/05_transformer_architecture</a>
 </div>

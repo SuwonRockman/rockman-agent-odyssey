@@ -24,5 +24,5 @@
 
 ---
 <div align="right">
-  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/01_graphrag_data_parsing">SuwonRockman/01_graphrag_data_parsing</a>
+  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/rockman-agent-odyssey/tree/master/Season2_GraphRAG/01_graphrag_data_parsing">SuwonRockman/01_graphrag_data_parsing</a>
 </div>

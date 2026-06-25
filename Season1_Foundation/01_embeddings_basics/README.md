@@ -26,5 +26,5 @@
 
 ---
 <div align="right">
-  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/01_embeddings_basics">SuwonRockman/01_embeddings_basics</a>
+  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/rockman-agent-odyssey/tree/master/Season1_Foundation/01_embeddings_basics">SuwonRockman/01_embeddings_basics</a>
 </div>

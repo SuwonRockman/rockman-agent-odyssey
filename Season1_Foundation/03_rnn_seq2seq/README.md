@@ -25,5 +25,5 @@
 
 ---
 <div align="right">
-  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/03_rnn_seq2seq">SuwonRockman/03_rnn_seq2seq</a>
+  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/rockman-agent-odyssey/tree/master/Season1_Foundation/03_rnn_seq2seq">SuwonRockman/03_rnn_seq2seq</a>
 </div>

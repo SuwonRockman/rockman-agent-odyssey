@@ -74,5 +74,5 @@ $$ L_{DPO} = -\log \sigma \left( \beta \log \frac{\pi_\theta(y_{chosen}|x)}{\pi_
 
 ---
 <div align="right">
-  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/08_llm_alignment_rlhf">SuwonRockman/08_llm_alignment_rlhf</a>
+  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/rockman-agent-odyssey/tree/master/Season1_Foundation/08_llm_alignment_rlhf">SuwonRockman/08_llm_alignment_rlhf</a>
 </div>

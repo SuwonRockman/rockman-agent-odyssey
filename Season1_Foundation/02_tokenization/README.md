@@ -311,5 +311,5 @@ tokenization/
 **[2단계 Theory (심층 이론)](./01_theory.md)** 파트에서는 이 중 현대 NLP의 근간이 된 두 모델(**BPE**와 **WordPiece**)의 알고리즘 철학과 수학적 차이를 본격적으로 해부합니다.
 
 <div align="right">
-  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/02_tokenization">SuwonRockman/02_tokenization</a><br>
+  <b>GitHub:</b> <a href="https://github.com/SuwonRockman/rockman-agent-odyssey/tree/master/Season1_Foundation/02_tokenization">SuwonRockman/02_tokenization</a><br>
 </div>
